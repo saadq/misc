@@ -1,0 +1,11 @@
+/**
+ * @flow
+ */
+
+const INCREMENT: 'INCREMENT' = 'INCREMENT'
+const DECREMENT: 'DECREMENT' = 'DECREMENT'
+
+export {
+  INCREMENT,
+  DECREMENT
+}
