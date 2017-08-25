@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "standard | snazzy",
-    "test": "npm run lint --silent"
+    "test": "flow coverage src/actions/index.js",
+    "flow": "flow",
+    "coverage": "flow coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadq/misc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saadq/misc/issues"
+  },
+  "homepage": "https://github.com/saadq/misc#readme",
   "devDependencies": {
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
-  },
-  "standard": {
-    "ignore": [
-      "should-not-be-linted"
-    ]
+    "flow-bin": "^0.53.1"
   }
 }
