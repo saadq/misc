@@ -1,25 +1,19 @@
 {
-  "name": "misc",
+  "name": "parcel-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "flow coverage src/actions/index.js",
-    "flow": "flow",
-    "coverage": "flow coverage"
+    "start": "cross-env NODE_ENV=development parcel src/index.html -p 3000",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --no-minify --public-url /"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saadq/misc.git"
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saadq/misc/issues"
-  },
-  "homepage": "https://github.com/saadq/misc#readme",
   "devDependencies": {
-    "flow-bin": "^0.53.1"
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "parcel-bundler": "^1.1.0"
   }
 }
