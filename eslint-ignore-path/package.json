@@ -1,0 +1,11 @@
+{
+  "name": "eslint-ignore-path",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1"
+  },
+  "devDependencies": {}
+}
