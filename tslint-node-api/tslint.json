@@ -1,0 +1,7 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "rules": {
+    "semicolon": [true, "always"]
+  }
+}

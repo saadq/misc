@@ -1,0 +1,17 @@
+{
+  "name": "tslint-node-api",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc app.ts",
+    "dev": "tsc --watch",
+    "start": "node lib/app.js"
+  },
+  "dependencies": {
+    "@types/node": "^9.6.6",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^6.0.0"
+  }
+}
