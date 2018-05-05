@@ -1,8 +1,0 @@
-{
-  "defaultSeverity": "error",
-  "jsRules": {},
-  "rules": {
-    "strict-type-predicates": true
-  },
-  "rulesDirectory": []
-}
