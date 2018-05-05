@@ -1,0 +1,11 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "src/files-to-lint/ignored-file.ts"
+    ]
+  }
+}

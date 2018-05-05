@@ -1,0 +1,17 @@
+{
+  "name": "tslint-ignore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cli": "tslint --project . --format stylish",
+    "api": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^10.0.4",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^6.0.2"
+  }
+}
