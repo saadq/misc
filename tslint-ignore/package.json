@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "cli": "tslint --project . --format stylish",
-    "api": "ts-node src/index.ts"
+    "api": "ts-node src/api.ts"
   },
   "dependencies": {
     "@types/node": "^10.0.4",

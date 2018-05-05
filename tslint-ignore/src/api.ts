@@ -1,13 +1,15 @@
 import { Configuration, Linter } from "tslint";
 
+const project = ".";
+const format = "stylish";
 const configFile = "tslint.json";
 
 const options = {
   fix: false,
-  formatter: "stylish",
+  formatter: format,
 };
 
-const program = Linter.createProgram("tsconfig.json", ".");
+const program = Linter.createProgram("tsconfig.json", project);
 const linter = new Linter(options, program);
 const files = Linter.getFileNames(program);
 
